@@ -4,7 +4,8 @@
 #                 * a new string off of the results. This method has a bug though! Use the debugger to
 #                 * figure out what's going on.
 #                 */
-#                public static void funWithStrings(){
+```
+#                 public static void funWithStrings(){'
 #                    String letters = "YyaYiFuoTdexuBehTnIgeMehdoht";
 #                    String newLetters = "";
 #                    for(int i = 0; i < letters.length()/4; ++i){
@@ -16,3 +17,4 @@
 #                    }
 #                    System.out.println(newLetters);
 #                }
+```
