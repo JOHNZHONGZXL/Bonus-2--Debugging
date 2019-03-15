@@ -1,10 +1,10 @@
 # Bonus-2--Debugging
-# /**
+```
+#               /**
 #                 * This method is supposed to reverse each section of 4 characters in the string and build
 #                 * a new string off of the results. This method has a bug though! Use the debugger to
 #                 * figure out what's going on.
 #                 */
-```
 #                 public static void funWithStrings(){'
 #                    String letters = "YyaYiFuoTdexuBehTnIgeMehdoht";
 #                    String newLetters = "";
