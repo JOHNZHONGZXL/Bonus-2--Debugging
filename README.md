@@ -25,7 +25,7 @@ import java.util.Scanner;
 
 public class BuggyPigLatinTranslator {
 
-    public static final String VOWELS = "AEIOUY";    //characters that are considered vowels
+    public static final String VOWELS = "AEIOUY";
 
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
@@ -83,18 +83,9 @@ public class BuggyPigLatinTranslator {
     public static boolean isVowel(char x) {
         String X = Character.toString(x); //changes the character to a string
         X = X.toUpperCase(); //converts string to upper case
-
-        boolean vowel = true;
-
-        //loop through all possible vowels and see if there's a match
-        for (int i = 0; i <= VOWELS.length()-1; i++)
-            if (VOWELS.contains(X)) {   //yes, this is a vowel
-                vowel = true;
-            } else {
-                vowel = false;
-            } //went through all vowels and determined this is not a vowel
-        return vowel;
+        return VOWELS.contains(X);
     }
 }
+
 ```
 
